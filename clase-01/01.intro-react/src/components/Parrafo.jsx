@@ -12,7 +12,9 @@ const Parrafo = (props) => { /* props = {data, color} */
     }
 
   return (
-    <p style={estilo}>{data}</p>
+    <>
+      <p style={estilo}>{data}</p>
+    </>
   )
 }
 
