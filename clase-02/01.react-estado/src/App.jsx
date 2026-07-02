@@ -9,7 +9,7 @@ const App = () => {
     <Contenedor>
       <TituloPrincipal texto="Titulo Principal"/>
       <TituloPrincipal texto="Otro Titulo"/>
-      <Contador />
+      <Contador valorInicial={22}/>
     </Contenedor>
   )
 }
