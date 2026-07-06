@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <TituloPrincipal texto="Título Principal" />
-      <TituloPrincipal texto="Otro título" />
+      {/* <TituloPrincipal texto="Otro título" /> */}
       <Contador valorInicial={22} />
       <Contador valorInicial={33} />
     </>

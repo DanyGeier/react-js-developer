@@ -1,10 +1,10 @@
 import { useRoutes } from "react-router"
-import App from "../App"
 import Productos from "../pages/Productos"
+import App from "../App"
 import Servicios from "../pages/Servicios"
 import Nosotros from "../pages/Nosotros"
-import Contacto from "../pages/Contacto"
 import NoEncontrado from "../pages/NoEncontrado"
+import Contacto from "../pages/Contacto"
 
 const Rutas = () => {
 
@@ -31,15 +31,13 @@ const Rutas = () => {
                 element: <Contacto />
             },
             {
-                path: '/*',
+                path: '*',
                 element: <NoEncontrado />
             }
-
         ]
     )
 
     return rutas
-
 
 }
 

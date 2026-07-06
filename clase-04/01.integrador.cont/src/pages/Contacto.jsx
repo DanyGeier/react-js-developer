@@ -1,11 +1,13 @@
+// rafce
+
 import TituloPrincipal from "../components/TituloPrincipal"
 
 const Contacto = () => {
   return (
     <>
-    <TituloPrincipal texto="contacto" />
-    <hr />
-    <p className="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia maiores fuga est optio omnis voluptatibus mollitia? Sint voluptatum nesciunt sequi.</p>
+      <TituloPrincipal texto="Contacto" />
+      <hr />
+      <p className="my-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus vel inventore est repellat sed laborum alias minus, ab id nobis.</p>
     </>
   )
 }
