@@ -38,7 +38,7 @@ const Formulario = ({ handlerCreate }) => {
         //console.log(formNuevo)
         setForm(formNuevo) // cambiando el estado -> sin modificar el anterior
         //console.log(form) 
-       
+    
 
     }
 

@@ -25,7 +25,13 @@ const Productos = () => {
 
   }
   
-  const hanlderRemove = () => {
+  const handlerRemove = (idAProducoABorrar) => {
+    console.log(idAProducoABorrar)
+
+    const nuevoEstado = products.filter(prod => prod.id !== idAProducoABorrar)
+    console.log(nuevoEstado) // Un nuevo array con todos los productos que tenía en el estado pero sin el producto a eliminar
+
+    setProducts(nuevoEstado)
 
   }
 
@@ -36,7 +42,7 @@ const Productos = () => {
       <hr />
       <p className="my-3">Ejemplo integrador para trabajar las props y estado en REACT</p>
       <Formulario handlerCreate={handlerCreate} /> 
-      <Tabla products={products} />
+      <Tabla products={products} handlerRemove={handlerRemove}/>
     </>
   )
 }
